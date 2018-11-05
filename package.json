@@ -1,16 +1,22 @@
 {
-  "scripts":{
-    "start":"nodemon"
+  "scripts": {
+    "start": "nodemon",
+      "test": "eslint ./src/"
   },
   "name": "js_dependencies_intro1",
   "version": "1.0.0",
   "main": "./src/index.js",
-  "repository":"https://github.com/VitaliyPar/js_dependencies_intro1.git",
+  "repository": "https://github.com/VitaliyPar/js_dependencies_intro1.git",
   "license": "MIT",
   "dependencies": {
     "moment": "^2.22.2"
   },
   "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
     "nodemon": "^1.18.5"
   }
 }
